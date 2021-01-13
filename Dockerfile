@@ -32,6 +32,6 @@ RUN wget https://get.symfony.com/cli/installer -O - | bash && mv /root/.symfony/
 # Add custom php configuration
 COPY ./php.ini /usr/local/etc/php/
 
-WORKDIR /var/www/html
+WORKDIR /var/www/html/symfony
 
 EXPOSE 9000
